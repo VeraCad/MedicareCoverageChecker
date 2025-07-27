@@ -1,26 +1,25 @@
 # Medicare Coverage Checker - MCP Server (CMS API Only)
 
-A FastMCP server that provides Medicare reimbursement information for HCPCS and CPT codes using **ONLY live CMS APIs**. This server fetches real-time data directly from CMS sources with **NO sample data whatsoever**.
+A FastMCP server that provides Medicare reimbursement information for HCPCS and CPT codes using CMS **APIs**. This server fetches real-time data directly from CMS sources..
 
 ## ✅ Key Features
 
-- **🔴 NO SAMPLE DATA**: Uses ONLY live CMS APIs for all lookups
+
 - **📡 Real-time CMS Integration**: Direct queries to CMS Physician Fee Schedule APIs  
 - **🏥 Accurate Medicare Data**: Payment amounts, RVUs, and coinsurance from official CMS sources
 - **🚀 FastMCP Framework**: Model Context Protocol server for AI integration
 - **⚡ API-First Design**: Every lookup hits live CMS endpoints
 - **🛡️ Error Handling**: Graceful handling of API failures and invalid codes
 
-## Data Sources (Live APIs Only)
+## Data Sources
 
-This implementation uses **ONLY live CMS APIs**:
+This implementation uses **CMS APIs**:
 
 - ✅ **CMS PFS Look-up Tool**: https://www.cms.gov/medicare/physician-fee-schedule/search
 - ✅ **CMS Data API**: https://data.cms.gov/api/1/metastore/schemas/dataset/items
 - ✅ **CMS Datastore SQL**: https://data.cms.gov/api/1/datastore/sql
 - ✅ **Real-time CMS datasets**: Live physician fee schedule data
 
-**❌ NO SAMPLE DATA IS USED - ALL DATA COMES FROM CMS APIs**
 
 ## Installation
 
