@@ -1,0 +1,16 @@
+[project]
+name = "medicarecoveragechecker"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "fastmcp>=2.10.6",
+    "httpx>=0.28.1",
+    "mcp-server>=0.1.4",
+    "mcp[cli]>=1.12.2",
+    "pydantic>=2.11.7",
+    "requests>=2.32.4",
+    "uvicorn>=0.35.0",
+]
